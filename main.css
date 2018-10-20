@@ -20,7 +20,7 @@ body {
 }
 
 #date {
-    color: white;
+    color: red;
     font-size: 3.5rem;
     text-align: center;
     font-family: "Digi", serif;
@@ -29,12 +29,30 @@ body {
     font-size: 15rem; 
 }
 
+.circle {
+    display: inline-block; 
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(125,125, 125, 0.6); 
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.am {
+    background-color: rgba(125,125, 125, 0.6);
+}
+
+.pm {
+    background-color: red; 
+}
+
 .big-text * {
     font-size: inherit; 
 }
 
 .digital-text {
     font-family: "Digi", serif; 
-    color: white; 
+    color: red; 
 }
 
