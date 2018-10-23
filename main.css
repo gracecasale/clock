@@ -27,13 +27,16 @@ body {
     background-color: black; 
 }
 
-#date {
-    font-size: 3.5rem;
-    text-align: center;
-}
-
 .big-text {
     font-size: 15rem; 
+}
+
+.font-35 {
+    font-size: 3.5rem; 
+}
+
+.text-center {
+    text-align: center;  
 }
 
 .circle {
