@@ -19,11 +19,29 @@
 }
 
 body {
+}
+
+.d-flex {
     display: flex;
+}
+
+.justify-content-center {
     justify-content: center;
+}
+
+.align-items-center {
     align-items: center; 
+}
+
+.vw100 {
     width: 100vw;
+}
+    
+.vh100 {
     height: 100vh;
+}
+
+.bg-black {
     background-color: black; 
 }
 
