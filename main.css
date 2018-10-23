@@ -10,6 +10,14 @@
     font-size: 16px; 
 }
 
+.digital-text {
+    font-family: "Digi", serif; 
+}
+
+.text-red {
+    color: red; 
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -20,11 +28,10 @@ body {
 }
 
 #date {
-    color: red;
     font-size: 3.5rem;
     text-align: center;
-    font-family: "Digi", serif;
 }
+
 .big-text {
     font-size: 15rem; 
 }
@@ -50,9 +57,3 @@ body {
 .big-text * {
     font-size: inherit; 
 }
-
-.digital-text {
-    font-family: "Digi", serif; 
-    color: red; 
-}
-

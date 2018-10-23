@@ -9,7 +9,6 @@ let time = new Date();
 let isPm = time.getHours() >= 12; 
 //event bindings
 
-
 //functions
 function tick() {
     //get time
