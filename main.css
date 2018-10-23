@@ -1,8 +1,10 @@
+/* fonts */
 @font-face {
     font-family: "Digi";
     src: url('./fonts/DS-DIGI.TTF');
 }
 
+/* normalize */
 * {
     margin: 0;
     padding: 0;
@@ -10,19 +12,9 @@
     font-size: 16px; 
 }
 
-.digital-text {
-    font-family: "Digi", serif; 
-}
-
-.text-red {
-    color: red; 
-}
-
-body {
-}
-
-.d-flex {
-    display: flex;
+/* display */
+.d-inline-block {
+    display: inline-block;
 }
 
 .justify-content-center {
@@ -33,6 +25,7 @@ body {
     align-items: center; 
 }
 
+/* sizing */
 .vw100 {
     width: 100vw;
 }
@@ -41,12 +34,22 @@ body {
     height: 100vh;
 }
 
-.bg-black {
-    background-color: black; 
+/* spacing */
+.ml-half{
+    margin-left: 0.5rem;
 }
 
-.big-text {
-    font-size: 15rem; 
+.mr-half {
+    margin-right: 0.5rem;
+}
+
+/* text */
+.digital-text {
+    font-family: "Digi", serif; 
+}
+
+.text-red {
+    color: red; 
 }
 
 .font-35 {
@@ -57,26 +60,25 @@ body {
     text-align: center;  
 }
 
-.circle {
-    height: 0.7rem;
-    width: 0.7rem;
-    border-radius: 1rem;
+.big-text {
+    font-size: 15rem; 
 }
 
-.d-inline-block {
-    display: inline-block;
+/* background */
+.bg-black {
+    background-color: black; 
 }
 
+/* border */
 .border-solid-gray {
     border: 1px solid rgba(125,125, 125, 0.6); 
 }
 
-.ml-half{
-    margin-left: 0.5rem;
-}
-
-.mr-half {
-    margin-right: 0.5rem;
+/* utilities */
+.circle {
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 1rem;
 }
 
 .am {
