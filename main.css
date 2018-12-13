@@ -1,20 +1,27 @@
 /* fonts */
+
 @font-face {
     font-family: "Digi";
-    src: url('./fonts/DS-DIGI.TTF');
+    src: url("./fonts/DS-DIGI.TTF");
 }
 
 /* normalize */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 /* display */
+
 .d-inline-block {
     display: inline-block;
+}
+
+.d-flex {
+    display: flex;
 }
 
 .justify-content-center {
@@ -22,20 +29,22 @@
 }
 
 .align-items-center {
-    align-items: center; 
+    align-items: center;
 }
 
 /* sizing */
+
 .vw100 {
     width: 100vw;
 }
-    
+
 .vh100 {
     height: 100vh;
 }
 
 /* spacing */
-.ml-half{
+
+.ml-half {
     margin-left: 0.5rem;
 }
 
@@ -44,37 +53,41 @@
 }
 
 /* text */
+
 .digital-text {
-    font-family: "Digi", serif; 
+    font-family: "Digi", serif;
 }
 
 .text-red {
-    color: red; 
+    color: red;
 }
 
 .font-35 {
-    font-size: 3.5rem; 
-}
-
-.text-center {
-    text-align: center;  
+    font-size: 3.5rem;
 }
 
 .big-text {
-    font-size: 15rem; 
+    font-size: 15rem;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* background */
+
 .bg-black {
-    background-color: black; 
+    background-color: black;
 }
 
 /* border */
-.border-solid-gray {
-    border: 1px solid rgba(125,125, 125, 0.6); 
+
+.border-solid-grey {
+    border: 1px solid rgba(125, 125, 125, 0.6);
 }
 
 /* utilities */
+
 .circle {
     height: 0.7rem;
     width: 0.7rem;
@@ -82,9 +95,9 @@
 }
 
 .am {
-    background-color: rgba(125,125, 125, 0.6);
+    background-color: rgba(125, 125, 125, 0.6);
 }
 
 .pm {
-    background-color: red; 
+    background-color: red;
 }
